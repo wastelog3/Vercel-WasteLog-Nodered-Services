@@ -8,7 +8,7 @@ const server = http.createServer(app);
 const settings = {
 httpAdminRoot:"/red",
 httpNodeRoot: "/api",
-    userDir:"./.node-red",
+    userDir:".",
     flowFile: 'flows.json',
     functionGlobalContext: {
     },
