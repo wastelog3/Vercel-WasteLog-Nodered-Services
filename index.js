@@ -28,9 +28,6 @@
     app.use(settings.httpAdminRoot, RED.httpAdmin);
     app.use(settings.httpNodeRoot, RED.httpNode);
     
-    server.listen(3000, () => {
-        RED.start();
-        console.log('Node-RED listening on port 3000');
-    });
+    RED.start();
     
     module.exports = app;
